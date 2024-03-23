@@ -1,0 +1,27 @@
+El código proporcionado realiza lo siguiente:
+
+1. Importa el módulo `math` para acceder a funciones matemáticas necesarias en el cálculo, como sqrt (raíz cuadrada) y exp (exponencial).
+2. Define tres variables constantes: `MEDIA`, `DESVIACION_ESTANDAR` y `UMBRAL`, que representan la media, la desviación estándar y el umbral de probabilidad, respectivamente, para filtrar la señal.
+3. Solicita al usuario que ingrese la frecuencia de la señal mediante la función `input`.
+4. Inicia un bucle `for` desde 0 hasta la frecuencia de la señal ingresada por el usuario (inclusive). Dentro del bucle, calcula la probabilidad acumulada utilizando la función de densidad de probabilidad (pdf) de la distribución normal para cada frecuencia en relación con la media y la desviación estándar.
+5. Acumula estas probabilidades en la variable `probabilidad_acumulada`.
+6. Compara la `probabilidad_acumulada` con el `UMBRAL` predefinido para determinar si la señal pasa o no pasa el filtro.
+7. Imprime un mensaje indicando si la señal pasa el filtro o si es bloqueada por el filtro, dependiendo del resultado de la comparación en el paso anterior.
+
+Entrada(s):
+
+El código utiliza una única entrada, que es la frecuencia de la señal ingresada. Esto se da gracias a la función input(), que solicita que ingresemos un valor y lo guarda en la variable frecuencia_señal. 
+
+
+Proceso(s):
+
+
+El código solicita la frecuencia de una señal y calcula la probabilidad acumulada utilizando una distribución normal con una media y desviación estándar predefinidas, y luego determina si la señal pasa o no pasa un filtro en función de esta probabilidad y un umbral predefinido.
+
+Salida(s):
+
+El código imprime un mensaje indicando si la señal pasa o no pasa el filtro.
+
+Restricciones:
+
+La frecuencia de la señal debe ser un número real (puede contener decimales).
