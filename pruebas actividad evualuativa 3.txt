@@ -1,0 +1,45 @@
+Prueba 1:
+
+Iniciar para_simular_filtrado_de_las_señales
+n, resultado, f
+Si el usuario ingresa 500:
+n = 500
+
+Cálculo de probabilidad_acumulada:
+f = 0
+Resultado después de la iteración 1:
+resultado = (1 / (300 * sqrt(2 * pi))) * exponencial(-(1/2) * ((0 - 1000) / 300)^2 )
+probabilidad_acumulada = resultado = valor calculado
+
+Mensaje de salida:
+La señal es bloqueada por el filtro.
+
+Prueba 2:
+
+Iniciar para_simular_filtrado_de_las_señales
+n, resultado, f
+Si el usuario ingresa 1200:
+n = 1200
+
+Cálculo de probabilidad_acumulada:
+f = 0
+Resultado después de la iteración 1:
+resultado = (1 / (300 * sqrt(2 * pi))) * exponencial(-(1/2) * ((0 - 1000) / 300)^2 )
+probabilidad_acumulada += resultado
+
+Resultado después de las iteraciones adicionales:
+... (iteraciones restantes)
+probabilidad_acumulada = valor calculado
+
+Mensaje de salida:
+La señal pasa el filtro.
+
+Prueba 3:
+
+Iniciar para_simular_filtrado_de_las_señales
+n, resultado, f
+Si el usuario ingresa -10:
+n = -10
+
+Como es menor que 0:
+El número ingresado es un número negativo.
